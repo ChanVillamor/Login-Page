@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    background-image: url('image/HD-wallpaper-microchip-neon-lines-black-background-chips-technology-backgrounds.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main-box {
+    background: rgba(57, 89, 203, 0.33);
+    margin: auto;
+    padding: 40px;
+    width: 500px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+}
+
+h2 {
+    color: #fff;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.input-data {
+    background: rgba(4, 8, 35, 0.8);
+    padding: 15px 60px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border-style: none;
+    color: #fff;;
+    font-weight: normal;
+}
+
+i {
+    position: absolute;
+    color: #404040;
+    transform: translateX(20px) translateY(35px);
+    font-size: 15px;
+}
+
+.btn {
+    background: rgba(254, 142, 67, 0.82);
+    margin-top: 30px;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 200px;
+    border-style: none;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.link {
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.link a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.link a:hover {
+    color: blue;
+}
